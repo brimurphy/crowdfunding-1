@@ -23,6 +23,7 @@
 body {
     font-size: 16px;
     font-family: 'Commissioner', sans-serif;
+    background-color: hsl(0, 0%, 96%);
 }
 
 .nav-container {
@@ -34,6 +35,36 @@ body {
     background-size: cover;
 }
 
+.header-container {
+    z-index: 1111;
+    margin-top: -2%;
+}
+
+.header-font{
+    font-weight: 700;
+}
+
+.logo {
+    margin-top: -3%;
+}
+
+/* colors */
 .text-white {
     color: #ffffff;
+}
+
+.text-dark-grey {
+    color: #2F2F2F;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-cyan-light {
+    background-color: hsl(176, 50%, 47%);
+}
+
+.bg-grey {
+    background-color: hsl(0, 0%, 95%);
 }
